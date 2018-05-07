@@ -1,5 +1,6 @@
 import datetime
- 
+import calendar
+
  
 today = datetime.date.today()
 todaydetail = datetime.datetime.today()
@@ -47,3 +48,11 @@ calc = today - newyear
 
 #計算結果の戻り値は「timedelata」
 print(calc.days)
+
+print('----------------------------------')
+#うるう年の判定
+print(calendar.isleap(2015))
+print(calendar.isleap(2016))
+print(calendar.isleap(2017))
+print(calendar.isleap(today.year))
+print(calendar.leapdays(2010,2020))
