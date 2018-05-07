@@ -27,6 +27,7 @@ print('----------------------------------')
 print(today.isoformat())
 print(todaydetail.strftime("%Y/%m/%d %H:%M:%S"))
 
+print('----------------------------------')
 #日付の計算
 today = datetime.datetime.today()
 
